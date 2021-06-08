@@ -1,0 +1,32 @@
+*{margin: 0px;padding: 0px;text-decoration: none;}
+#warp {width: 100%;height: 100%}
+li{list-style: none;font-family: 'Noto Sans KR', sans-serif;}
+video{vertical-align: top;}
+header{position: absolute;width: 100%;height: 65px;position: fixed;z-index: 9999;}
+header > span{position: absolute;display: inline-block;margin-top: 23px;margin-left: 220px;}
+h1{color: black; line-height: 100px; float: left;}
+nav{width: 800px;border: 0px solid red;display: flex;padding-top: 30px;padding-left: 1080px;}
+nav > ul{display: grid;grid-template-columns: 1.1fr 1fr 1fr 1fr;}
+nav > ul > li{border: 0px solid green;width: 150px;}
+nav > ul > li > a{float: right;color: black;}
+nav > ul > li > a:hover{color: #0909C6;transform: scale(1.1);transition: 0.1s;}
+
+.icon_yo{z-index: 14;position: absolute;float: left; display: inline-block;padding-top: 650px; padding-left: 220px;}
+.icon_sp{z-index: 13;position: absolute;float: left; display: inline-block;padding-top: 690px; padding-left: 220px;}
+.icon_in{z-index: 12;position: absolute;float: left; display: inline-block;padding-top: 730px; padding-left: 220px;}
+.icon_fb{z-index: 11;position: absolute;float: left; display: inline-block;padding-top: 770px; padding-left: 220px;}
+.icon_tw{z-index: 10;position: absolute;float: left; display: inline-block;padding-top: 810px; padding-left: 220px;}
+.icon2{position: fixed;}
+.goods{background-attachment: fixed;}
+.goods01{width: 100%;height:780px;background-image: url('img/sub03_gu.png');}
+.goods02{width: 100%;height:780px;background-image: url('img/sub03_pi.png');}
+.goods03{width: 100%;height:780px;background-image: url('img/sub03_um.png');}
+.goods04{width: 100%;height:780px;background-image: url('img/sub03_hs.png');}
+.main_text{z-index: 2;position: absolute;float: left; display: inline-block;padding-top: 570px; padding-left: 653px;}
+.kenburns-top{animation:kenburns-top 1.5s ease-out reverse both}
+@keyframes kenburns-top{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.15) translateY(-15px);transform-origin:top}}
+
+footer{background-color: black;min-width: 100%;min-height: 70px; bottom: 0px;text-align: center;}
+.footer_img{padding-top: 12px;}
+.footer_text{font-size: 8px; color: #FFFFFF;padding-top: 5px;}
+body > section > div > img{margin: 40px 0px;}
